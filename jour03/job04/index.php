@@ -7,16 +7,16 @@ $str = "Dans l'espace, personne ne
 vous entend crier.";
 
 // ici je parcours ma chaine de caractere et je la compte avec lindex $x
-// le {} me permet seulement dafficher le nbre dernier de la chaine cad 46
+// les moustaches me permetttent seulement dafficher le nbre dernier de la chaine cad 46
 // sinon echo affichera chaque numéro d'index
 
-for ($x=0; isset($str[$x] ); $x++){}
+for ($x=0; isset($str[$x] ); $x++) {}
 
 echo $x .'<br>';
 
-$i=0;
 
 // avec le while 
+$i=0;
 
 while(isset($str[$i])){
     $i=$i+ 1;
