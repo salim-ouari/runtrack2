@@ -6,7 +6,7 @@ valeur de retour et affichez la. -->
 
 
 function gethello() {
-
+// return renvoi la valeur de la function
     return ("Hello LaPlateforme");
 }
 
