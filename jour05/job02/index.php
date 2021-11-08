@@ -6,18 +6,21 @@ afficher “Bonjour”, si “jour” vaut false, la fonction doit afficher “B
 
 function bonjour ($jour) {
 
-    if ($jour == true)
+    if ($jour === true){
 
     echo 'Bonjour';
-    
-
-    
-    elseif ($jour == false)
+}elseif ($jour === false){ 
     echo 'Bonsoir';
+
+}else {
+    echo "ce n'est pas un booléen";
+}
     
     }
 
     bonjour (true);
 
     // bonjour (false);
+
+
     
