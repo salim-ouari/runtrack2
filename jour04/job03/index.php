@@ -28,7 +28,7 @@ echo(" \$_POST a ".$i." arguments");
 <html>
 <head>
     <body>
-        <form action="./index.php" method="get">
+        <form action="./index.php" method="post">
             <label for="fname">first name </label>
             <input type="text" id="fname" name="fname">
             <label for="lname">last name </label>
