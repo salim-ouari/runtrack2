@@ -7,8 +7,6 @@ les “E” des “3”, les “G” des “6”, les “L” des “1”, les �
 
 <?php
 
-
-       
 function leetspeak($str){
     
     for($i=0;isset($str[$i]);$i++){
